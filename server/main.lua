@@ -1,6 +1,5 @@
 QBCore = exports['qb-core']:GetCoreObject()
 
--- Funkcja ładowania licznika dla gracza
 RegisterNetEvent('my_script:loadCounter', function()
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
@@ -12,7 +11,6 @@ RegisterNetEvent('my_script:loadCounter', function()
     end)
 end)
 
--- Funkcja zapisywania licznika
 RegisterNetEvent('my_script:saveCounter', function(count)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('body');
-    container.style.display = 'none'; // Ukryj NUI na starcie
+    container.style.display = 'none'; 
 
     window.addEventListener('message', (event) => {
         const data = event.data;
