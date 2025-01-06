@@ -1,4 +1,4 @@
-local count = 0 
+local count = TriggerServerEvent('my_script:loadCounter')
 local nuiActive = false
 
 RegisterCommand('toggleNUI', function()
@@ -28,7 +28,7 @@ end)
 
 RegisterNetEvent('my_script:setCounter', function(serverCount)
     count = serverCount
-    print('Licznik załadowany: ' .. count)
+    print('Counter loaded: ' .. count)
 end)
 
 AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
