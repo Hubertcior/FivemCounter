@@ -9,8 +9,9 @@ Simple mod for FIVEM to add 1 to number and save it to database i make it public
 
 ## 📚 Installation
 
-Create folder in [qb] and put all files into it.
-Open database and create database query 
+-Create folder in [qb] and put all files into it.
+
+-Open database and create database query 
 
 ```MySQL
 CREATE TABLE IF NOT EXISTS player_counters (
