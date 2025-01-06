@@ -7,7 +7,7 @@ Simple mod for FIVEM to add 1 to number and save it to database i make it public
 - When you click F5 key the nui will show up
 
 
-## 📚 Installation
+## 💾 Installation
 
 -Create folder in [qb] and put all files into it.
 
